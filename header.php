@@ -27,9 +27,23 @@
 		<h1>
 			<?php $plxShow->mainTitle('link'); ?>
 		</h1>
+		
 		<h2>
 			<?php $plxShow->subTitle(); ?>
 		</h2>
+		<center>
+
+		 <a href="http://www.twitter.com">
+			 <img src="<?php $plxShow->template(); ?>/img/twitter.svg" title="" alt="twitter"  width="35" />
+		 </a>
+		 <a href="http://www.github.com">
+			 <img src="<?php $plxShow->template(); ?>/img/github.svg" title="" alt="twitter"  width="37" />
+		 </a>
+		 <a href="http://validator.w3.org/feed/docs/rss2.html">
+			 <img src="<?php $plxShow->template(); ?>/img/rss.svg" title="" alt="twitter"  width="30" />
+		 </a>		 		 
+		 </center>
+				
 	</header>
 
 	<nav role="navigation">
