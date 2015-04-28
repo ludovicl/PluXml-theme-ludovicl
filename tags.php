@@ -33,7 +33,6 @@
 
 				<footer>
 					<p>
-						<?php $plxShow->lang('CLASSIFIED_IN') ?> : <?php $plxShow->artCat(); ?> /
 						<?php $plxShow->lang('TAGS') ?> : <?php $plxShow->artTags(); ?>
 					</p>
 				</footer>

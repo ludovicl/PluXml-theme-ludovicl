@@ -47,9 +47,6 @@
 				<?php $plxShow->pagination(); ?>
 			</div>
 
-			<div class="rss">
-				<?php $plxShow->artFeed('rss',$plxShow->catId()); ?>
-			</div>
                        			                        <center>
 
                         <h4>
@@ -63,7 +60,6 @@
 		</div>
                  </center>
 
-		<!-- <?php include(dirname(__FILE__).'/sidebar.php'); ?> -->
 
 	</div>
 

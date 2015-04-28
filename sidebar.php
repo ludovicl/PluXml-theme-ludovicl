@@ -2,7 +2,7 @@
 
 	<aside role="complementary">
 
-		<h3>
+		<!-- <h3>
 			<?php $plxShow->lang('CATEGORIES'); ?>
 		</h3>
 
@@ -16,7 +16,7 @@
 
 		<ul>
 			<?php $plxShow->lastArtList('<li><a class="#art_status" href="#art_url" title="#art_title">#art_title</a></li>'); ?>
-		</ul>
+		</ul> -->
 
 		<h3>
 			<?php $plxShow->lang('TAGS'); ?>
@@ -26,7 +26,7 @@
 			<?php $plxShow->tagList('<li class="tag #tag_size"><a class="#tag_status" href="#tag_url" title="#tag_name">#tag_name</a></li>', 20); ?>
 		</ul>
 
-		<h3>
+		<!-- <h3>
 			<?php $plxShow->lang('LATEST_COMMENTS'); ?>
 		</h3>
 
@@ -36,17 +36,8 @@
 
 		<h3>
 			<?php $plxShow->lang('ARCHIVES'); ?>
-		</h3>
+		</h3> -->
 
-		<ul>
-			<?php $plxShow->archList('<li id="#archives_id"><a class="#archives_status" href="#archives_url" title="#archives_name">#archives_name</a> (#archives_nbart)</li>'); ?>
-		</ul>
-
-		<p class="rss"><a href="<?php $plxShow->urlRewrite('feed.php?rss') ?>" title="<?php $plxShow->lang('ARTICLES_RSS_FEEDS'); ?>">
-			<?php $plxShow->lang('ARTICLES'); ?></a>
-		</p>
-		<p class="rss"><a href="<?php $plxShow->urlRewrite('feed.php?rss/commentaires'); ?>" title="<?php $plxShow->lang('COMMENTS_RSS_FEEDS') ?>">
-			<?php $plxShow->lang('COMMENTS'); ?></a>
-		</p>
+		
 
 	</aside>

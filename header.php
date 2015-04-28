@@ -33,14 +33,14 @@
 		</h2>
 		<center>
 
-		 <a href="http://www.twitter.com">
-			 <img src="<?php $plxShow->template(); ?>/img/twitter.svg" title="" alt="twitter"  width="35" />
+		 <a href="http://www.twitter.com"  target="_blank">
+			 <img src="<?php $plxShow->template(); ?>/img/twitter.svg" title="" alt="twitter"  width="25" />
 		 </a>
-		 <a href="http://www.github.com">
-			 <img src="<?php $plxShow->template(); ?>/img/github.svg" title="" alt="twitter"  width="37" />
+		 <a href="http://www.github.com"  target="_blank">
+			 <img src="<?php $plxShow->template(); ?>/img/github.svg" title="" alt="twitter"  width="27" />
 		 </a>
-		 <a href="http://validator.w3.org/feed/docs/rss2.html">
-			 <img src="<?php $plxShow->template(); ?>/img/rss.svg" title="" alt="twitter"  width="30" />
+		 <a href="http://validator.w3.org/feed/docs/rss2.html"  target="_blank">
+			 <img src="<?php $plxShow->template(); ?>/img/rss.svg" title="" alt="twitter"  width="20" />
 		 </a>		 		 
 		 </center>
 				
