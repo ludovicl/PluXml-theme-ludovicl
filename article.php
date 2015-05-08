@@ -4,18 +4,18 @@
       <div class="full-width">
          <article role="article" id="post-<?php echo $plxShow->artId(); ?>">
             <header>
-               <center>
-                  <h1>
-                     <?php $plxShow->artTitle(''); ?>
-                  </h1>
-                     <?php $plxShow->lang('WRITTEN_BY') ?> <?php $plxShow->artAuthor(); ?> /
-                     <?php $plxShow->artDate('#num_day #month #num_year(4)'); ?>
-               </center>
+               <h1>
+                  <?php $plxShow->artTitle(''); ?>
+               </h1>
+               <h4>
+                  <?php $plxShow->lang('WRITTEN_BY') ?> <?php $plxShow->artAuthor(); ?> /
+                  <?php $plxShow->artDate('#num_day #month #num_year(4)'); ?>
+               </h4>
             </header>
             <section>
-			<p align=justify>
-               <?php $plxShow->artContent(); ?>
-		   </p>
+               <p align=justify>
+                  <?php $plxShow->artContent(); ?>
+               </p>
             </section>
             <footer>
                <p>
