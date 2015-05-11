@@ -8,7 +8,7 @@
       <?php $plxShow->meta('description') ?>
       <?php $plxShow->meta('keywords') ?>
       <?php $plxShow->meta('author') ?>
-      <link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.png" />
+      <link rel="icon" href="<?php $plxShow->template(); ?>/img/favicon.ico" />
       <link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/reset.css" media="screen"/>
       <link rel="stylesheet" href="<?php $plxShow->template(); ?>/css/style.css" media="screen"/>
       <?php $plxShow->templateCss() ?>
